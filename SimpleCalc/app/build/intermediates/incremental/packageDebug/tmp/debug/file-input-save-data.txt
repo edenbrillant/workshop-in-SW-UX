@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Nov 02 12:30:02 IST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\User\\Desktop\\workshop_in SW_and_UX\\workshop-in-SW-UX\\SimpleCalc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

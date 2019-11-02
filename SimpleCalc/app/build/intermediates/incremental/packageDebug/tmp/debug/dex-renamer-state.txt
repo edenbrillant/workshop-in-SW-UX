@@ -1,0 +1,4 @@
+#Sat Nov 02 12:30:02 IST 2019
+base.0=C\:\\Users\\User\\Desktop\\workshop_in SW_and_UX\\workshop-in-SW-UX\\SimpleCalc\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
