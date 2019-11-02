@@ -1,9 +1,13 @@
 package com.example.hellocompat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private TextView mHelloTextView;
@@ -29,4 +33,13 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("color", mHelloTextView.getCurrentTextColor());
     }
 
+    public void changeColor(View view) {
+        Random random = new Random();
+        String colorName = mColorArray[random.nextInt(20)];
+        int colorResourceName = getResources().getIdentifier(colorName,
+                "color", getApplicationContext().getPackageName());
+        int colorRes = ContextCompat.getColor(this, colorResourceName);
+        mHelloTextView.setTextColor(colorRes);
+
+    }
 }
